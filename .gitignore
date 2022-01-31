@@ -128,6 +128,7 @@ dmypy.json
 .pyre/
 
 # Project
+.DS_Store
 tools/lang2vec/lang2vec/data/distances.zip
 datasets/XVNLI/annotations/en/train.jsonl
 datasets/gqa/annotations/train_target.pkl
