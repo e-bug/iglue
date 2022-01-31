@@ -1,0 +1,14 @@
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/06/2021 07:56:46 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+12/06/2021 07:56:46 - INFO - volta.task_utils -   Loading XVNLI Dataset with batch size 30
+12/06/2021 07:56:46 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
+12/06/2021 07:56:46 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/iglue/zero_shot/xvnli/ctrl_lxmert/XVNLI_ctrl_lxmert_base/pytorch_model_best.bin
+12/06/2021 07:56:54 - INFO - volta.utils -   
+  0%|          | 0/39 [00:00<?, ?it/s]  3%|▎         | 1/39 [00:00<00:31,  1.20it/s]  8%|▊         | 3/39 [00:01<00:23,  1.50it/s] 13%|█▎        | 5/39 [00:02<00:18,  1.79it/s] 18%|█▊        | 7/39 [00:02<00:15,  2.07it/s] 23%|██▎       | 9/39 [00:03<00:12,  2.33it/s] 28%|██▊       | 11/39 [00:03<00:10,  2.55it/s] 33%|███▎      | 13/39 [00:04<00:09,  2.78it/s] 38%|███▊      | 15/39 [00:04<00:07,  3.10it/s] 44%|████▎     | 17/39 [00:05<00:07,  2.95it/s] 49%|████▊     | 19/39 [00:06<00:06,  3.03it/s] 54%|█████▍    | 21/39 [00:08<00:10,  1.78it/s] 59%|█████▉    | 23/39 [00:10<00:11,  1.42it/s] 64%|██████▍   | 25/39 [00:12<00:11,  1.24it/s] 69%|██████▉   | 27/39 [00:14<00:10,  1.13it/s] 74%|███████▍  | 29/39 [00:16<00:09,  1.09it/s] 79%|███████▉  | 31/39 [00:18<00:07,  1.08it/s] 85%|████████▍ | 33/39 [00:20<00:05,  1.03it/s] 90%|████████▉ | 35/39 [00:23<00:04,  1.06s/it] 95%|█████████▍| 37/39 [00:24<00:01,  1.01it/s]100%|██████████| 39/39 [00:26<00:00,  1.12it/s]
+12/06/2021 07:57:26 - INFO - volta.train_utils -   Eval task TASK19 on iteration 0 
+12/06/2021 07:57:26 - INFO - volta.train_utils -   Validation [XVNLI]: loss 0.385 score 76.718 

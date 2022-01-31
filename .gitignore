@@ -56,7 +56,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -127,3 +126,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project
+tools/lang2vec/lang2vec/data/distances.zip
+datasets/XVNLI/annotations/en/train.jsonl
+datasets/gqa/annotations/train_target.pkl
+datasets/gqa/annotations/train.json
+datasets/gqa/annotations/trainval_target.pkl
+datasets/wit/annotations/train_en.jsonl

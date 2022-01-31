@@ -1,0 +1,16 @@
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/07/2021 01:58:22 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+12/07/2021 01:58:22 - INFO - volta.task_utils -   Loading GQA Dataset with batch size 512
+12/07/2021 01:58:22 - INFO - volta.datasets.gqa_dataset -   Loading from /home/projects/ku_00062/data/gqa/annotations/cache/GQA_test_bn_xlm-roberta-base_40.pkl
+12/07/2021 01:58:25 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
+12/07/2021 01:58:25 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/iglue/few_shot/xgqa/xGQAbn_48/ctrl_xuniter/5e-5/GQA_ctrl_xuniter_base/pytorch_model_best.bin
+12/07/2021 01:58:37 - INFO - volta.utils -   
+  0%|          | 0/25 [00:00<?, ?it/s]  4%|▍         | 1/25 [00:29<11:46, 29.45s/it]  8%|▊         | 2/25 [00:32<08:16, 21.57s/it] 12%|█▏        | 3/25 [00:37<06:04, 16.55s/it] 16%|█▌        | 4/25 [00:38<04:08, 11.84s/it] 20%|██        | 5/25 [00:41<03:04,  9.21s/it] 24%|██▍       | 6/25 [00:42<02:07,  6.70s/it] 28%|██▊       | 7/25 [00:44<01:36,  5.34s/it] 32%|███▏      | 8/25 [00:45<01:07,  3.98s/it] 36%|███▌      | 9/25 [00:46<00:51,  3.20s/it] 40%|████      | 10/25 [00:47<00:37,  2.48s/it] 44%|████▍     | 11/25 [00:48<00:30,  2.17s/it] 48%|████▊     | 12/25 [00:49<00:22,  1.75s/it] 52%|█████▏    | 13/25 [00:50<00:19,  1.64s/it] 56%|█████▌    | 14/25 [00:51<00:15,  1.39s/it] 60%|██████    | 15/25 [00:53<00:13,  1.40s/it] 64%|██████▍   | 16/25 [00:54<00:10,  1.22s/it] 68%|██████▊   | 17/25 [00:55<00:10,  1.28s/it] 72%|███████▏  | 18/25 [00:56<00:07,  1.14s/it] 76%|███████▌  | 19/25 [00:57<00:07,  1.21s/it] 80%|████████  | 20/25 [00:58<00:05,  1.09s/it] 84%|████████▍ | 21/25 [00:59<00:04,  1.18s/it] 88%|████████▊ | 22/25 [01:00<00:03,  1.07s/it] 92%|█████████▏| 23/25 [01:02<00:02,  1.16s/it] 96%|█████████▌| 24/25 [01:02<00:01,  1.05s/it]100%|██████████| 25/25 [01:03<00:00,  1.13it/s]
+12/07/2021 01:59:44 - INFO - volta.train_utils -   Eval task TASK15 on iteration 0 
+12/07/2021 01:59:44 - INFO - volta.train_utils -   Validation [GQA]: loss 0.000 score 0.000 
+  0%|          | 0/12578 [00:00<?, ?it/s]100%|██████████| 12578/12578 [00:00<00:00, 911361.03it/s]

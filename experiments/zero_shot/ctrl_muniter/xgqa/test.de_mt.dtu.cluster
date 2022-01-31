@@ -1,0 +1,25 @@
+#!/bin/sh
+### Note: No commands may be executed until after the #PBS lines
+### Account information
+#PBS -W group_list=ku_00062 -A ku_00062
+### Job name (comment out the next line to get the name of the script used as the job name)
+#PBS -N test.de_mt
+### Output files (comment out the next 2 lines to get the job name used instead)
+#PBS -e test.de_mt.err
+#PBS -o test.de_mt.out
+### Only send mail when job is aborted or terminates adeormally
+### PBS -m n
+### Number of nodes
+#PBS -l nodes=1:ppn=40:gpus=1
+### Memory
+#PBS -l mem=30gb
+### Requesting time - format is <days>:<hours>:<minutes>:<seconds> (here, 12 hours)
+#PBS -l walltime=00:05:00
+
+module load python36
+module load cuda/toolkit/10.1/10.1.168
+module load gcc/8.2.0
+
+cd $PBS_O_WORKDIR
+
+bash test.de_mt.dtu.sh

@@ -1,0 +1,15 @@
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/05/2021 19:03:24 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+12/05/2021 19:03:24 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 512
+12/05/2021 19:03:25 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
+12/05/2021 19:03:25 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/iglue/zero_shot/marvl/uc2/NLVR2_uc2_base/pytorch_model_best.bin
+12/05/2021 19:03:37 - INFO - volta.utils -   
+  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:06<01:21,  6.26s/it] 14%|█▍        | 2/14 [00:08<01:01,  5.15s/it] 21%|██▏       | 3/14 [00:11<00:48,  4.36s/it] 29%|██▊       | 4/14 [00:13<00:38,  3.82s/it] 36%|███▌      | 5/14 [00:16<00:30,  3.43s/it] 43%|████▎     | 6/14 [00:18<00:25,  3.17s/it] 50%|█████     | 7/14 [00:21<00:20,  2.98s/it] 57%|█████▋    | 8/14 [00:24<00:17,  2.85s/it] 64%|██████▍   | 9/14 [00:26<00:13,  2.75s/it] 71%|███████▏  | 10/14 [00:29<00:10,  2.69s/it] 79%|███████▊  | 11/14 [00:31<00:07,  2.65s/it] 86%|████████▌ | 12/14 [00:34<00:05,  2.62s/it] 93%|█████████▎| 13/14 [00:36<00:02,  2.60s/it]100%|██████████| 14/14 [00:38<00:00,  2.29s/it]
+12/05/2021 19:04:19 - INFO - volta.train_utils -   Eval task TASK12 on iteration 0 
+12/05/2021 19:04:19 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.681 score 70.561 
+12/05/2021 19:04:19 - INFO - __main__ -   Consistency: 32.66230498238551

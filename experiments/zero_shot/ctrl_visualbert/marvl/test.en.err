@@ -1,0 +1,15 @@
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/11/2021 21:51:11 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+12/11/2021 21:51:11 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 512
+12/11/2021 21:51:12 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
+12/11/2021 21:51:12 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/iglue/zero_shot/marvl/ctrl_visualbert/NLVR2_ctrl_visualbert_base/pytorch_model_best.bin
+12/11/2021 21:51:16 - INFO - volta.utils -   
+  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:03<00:51,  3.95s/it] 14%|█▍        | 2/14 [00:06<00:42,  3.53s/it] 21%|██▏       | 3/14 [00:09<00:35,  3.23s/it] 29%|██▊       | 4/14 [00:11<00:30,  3.02s/it] 36%|███▌      | 5/14 [00:14<00:25,  2.88s/it] 43%|████▎     | 6/14 [00:16<00:22,  2.78s/it] 50%|█████     | 7/14 [00:19<00:18,  2.71s/it] 57%|█████▋    | 8/14 [00:21<00:15,  2.66s/it] 64%|██████▍   | 9/14 [00:24<00:13,  2.62s/it] 71%|███████▏  | 10/14 [00:26<00:10,  2.60s/it] 79%|███████▊  | 11/14 [00:29<00:07,  2.58s/it] 86%|████████▌ | 12/14 [00:31<00:05,  2.57s/it] 93%|█████████▎| 13/14 [00:34<00:02,  2.57s/it]100%|██████████| 14/14 [00:36<00:00,  2.26s/it]
+12/11/2021 21:51:55 - INFO - volta.train_utils -   Eval task TASK12 on iteration 0 
+12/11/2021 21:51:55 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.798 score 71.178 
+12/11/2021 21:51:55 - INFO - __main__ -   Consistency: 32.41066935078007

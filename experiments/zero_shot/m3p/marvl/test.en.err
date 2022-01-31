@@ -1,0 +1,15 @@
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/07/2021 18:02:10 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+12/07/2021 18:02:12 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 256
+12/07/2021 18:02:13 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
+12/07/2021 18:02:13 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/iglue/zero_shot/marvl/m3p/NLVR2_m3p_base/pytorch_model_best.bin
+12/07/2021 18:02:28 - INFO - volta.utils -   
+  0%|          | 0/28 [00:00<?, ?it/s]  4%|▎         | 1/28 [01:50<49:41, 110.43s/it]  7%|▋         | 2/28 [01:53<33:53, 78.21s/it]  11%|█         | 3/28 [03:43<36:31, 87.67s/it] 14%|█▍        | 4/28 [03:44<24:45, 61.90s/it] 18%|█▊        | 5/28 [05:40<29:51, 77.87s/it] 21%|██▏       | 6/28 [05:41<20:10, 55.04s/it] 25%|██▌       | 7/28 [07:56<27:36, 78.89s/it] 29%|██▊       | 8/28 [07:58<18:35, 55.75s/it] 32%|███▏      | 9/28 [10:14<25:16, 79.79s/it] 36%|███▌      | 10/28 [10:16<16:58, 56.59s/it] 39%|███▉      | 11/28 [12:27<22:23, 79.02s/it] 43%|████▎     | 12/28 [12:34<15:18, 57.38s/it] 46%|████▋     | 13/28 [14:33<18:57, 75.83s/it] 50%|█████     | 14/28 [14:37<12:38, 54.19s/it] 54%|█████▎    | 15/28 [16:34<15:48, 72.96s/it] 57%|█████▋    | 16/28 [16:43<10:46, 53.87s/it] 61%|██████    | 17/28 [18:47<13:44, 74.98s/it] 64%|██████▍   | 18/28 [18:53<09:01, 54.19s/it] 68%|██████▊   | 19/28 [20:42<10:34, 70.55s/it] 71%|███████▏  | 20/28 [20:50<06:54, 51.84s/it] 75%|███████▌  | 21/28 [22:40<08:04, 69.24s/it] 79%|███████▊  | 22/28 [22:46<05:03, 50.53s/it] 82%|████████▏ | 23/28 [24:35<05:40, 68.07s/it] 86%|████████▌ | 24/28 [24:45<03:21, 50.41s/it] 89%|████████▉ | 25/28 [26:24<03:15, 65.16s/it] 93%|█████████▎| 26/28 [26:47<01:44, 52.34s/it] 96%|█████████▋| 27/28 [28:25<01:06, 66.13s/it]100%|██████████| 28/28 [28:25<00:00, 46.41s/it]
+12/07/2021 18:30:58 - INFO - volta.train_utils -   Eval task TASK12 on iteration 0 
+12/07/2021 18:30:58 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.672 score 68.222 
+12/07/2021 18:30:58 - INFO - __main__ -   Consistency: 27.679919476597885

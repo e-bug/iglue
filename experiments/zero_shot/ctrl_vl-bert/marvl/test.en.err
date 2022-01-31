@@ -1,0 +1,17 @@
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/11/2021 21:51:12 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+12/11/2021 21:51:12 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 512
+12/11/2021 21:51:13 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
+12/11/2021 21:51:13 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/iglue/zero_shot/marvl/ctrl_vl-bert/NLVR2_ctrl_vl-bert_base/pytorch_model_best.bin
+12/11/2021 21:51:16 - INFO - volta.utils -   
+  0%|          | 0/14 [00:00<?, ?it/s]/home/projects/ku_00062/projects/iglue/volta/volta/embeddings.py:321: UserWarning: Use of index_put_ on expanded tensors is deprecated. Please clone() the tensor before performing this operation. This also applies to advanced indexing e.g. tensor[indices] = tensor (Triggered internally at  /pytorch/aten/src/ATen/native/TensorAdvancedIndexing.cpp:300.)
+  text_position_ids[text_position_ids >= text_end] += num_boxes  # FIXME for variable number of objects
+  7%|▋         | 1/14 [00:04<00:53,  4.09s/it] 14%|█▍        | 2/14 [00:06<00:43,  3.62s/it] 21%|██▏       | 3/14 [00:09<00:36,  3.30s/it] 29%|██▊       | 4/14 [00:11<00:30,  3.08s/it] 36%|███▌      | 5/14 [00:14<00:26,  2.92s/it] 43%|████▎     | 6/14 [00:16<00:22,  2.82s/it] 50%|█████     | 7/14 [00:19<00:19,  2.74s/it] 57%|█████▋    | 8/14 [00:21<00:16,  2.68s/it] 64%|██████▍   | 9/14 [00:24<00:13,  2.65s/it] 71%|███████▏  | 10/14 [00:27<00:10,  2.62s/it] 79%|███████▊  | 11/14 [00:29<00:07,  2.60s/it] 86%|████████▌ | 12/14 [00:32<00:05,  2.59s/it] 93%|█████████▎| 13/14 [00:34<00:02,  2.58s/it]100%|██████████| 14/14 [00:36<00:00,  2.27s/it]
+12/11/2021 21:51:56 - INFO - volta.train_utils -   Eval task TASK12 on iteration 0 
+12/11/2021 21:51:56 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.698 score 71.724 
+12/11/2021 21:51:56 - INFO - __main__ -   Consistency: 34.423754403623555

@@ -1,0 +1,20 @@
+#!/bin/bash
+# normal cpu stuff: allocate cpus, memory
+#SBATCH --ntasks=1 --cpus-per-task=10 --mem=45G
+# we run on the gpu partition and we allocate 1 titanx gpu
+#SBATCH -p gpu --gres=gpu:titanrtx:1
+#We expect that our program should not run langer than 2 hours
+#Note that a program will be killed once it exceeds this time!
+#SBATCH --time=192:00:00
+#SBATCH --job-name="train"
+#SBATCH --output="train.pt2.log"
+
+echo "JOB_ID:" $SLURM_JOB_ID 
+echo "NODE:" $SLURMD_NODENAME
+bash $HOME/nvv.sh
+echo "CUDA_VISIBLE_DEVICES:" $CUDA_VISIBLE_DEVICES
+echo "+-----------------------------------------------------------------------------+"
+echo "|                                                                             |"
+echo "+-----------------------------------------------------------------------------+"
+
+bash train.sh

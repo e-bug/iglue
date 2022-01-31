@@ -1,0 +1,15 @@
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /home/projects/ku_00062/envs/iglue/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+
+12/06/2021 23:05:56 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
+12/06/2021 23:05:57 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 512
+12/06/2021 23:05:57 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
+12/06/2021 23:05:57 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/iglue/few_shot/marvl/MaRVLzh_8/ctrl_xuniter/1e-5/NLVR2_ctrl_xuniter_base/pytorch_model_best.bin
+12/06/2021 23:06:06 - INFO - volta.utils -   
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:17<00:17, 17.05s/it]100%|██████████| 2/2 [00:19<00:00, 12.67s/it]
+12/06/2021 23:06:29 - INFO - volta.train_utils -   Eval task TASK12 on iteration 0 
+12/06/2021 23:06:29 - INFO - volta.train_utils -   Validation [NLVR2]: loss 1.335 score 53.656 
+12/06/2021 23:06:29 - INFO - __main__ -   Consistency: 3.557312252964427
