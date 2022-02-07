@@ -19,6 +19,8 @@ We also provide access to our processed image data (i.e. image features):
 - [GQA](https://sid.erda.dk/sharelink/FtoWxwitOz)
 - [MaRVL zero-shot](https://sid.erda.dk/sharelink/GYPEryxpVk) | [MaRVL few-shot](https://sid.erda.dk/sharelink/fMNmRmJgQA)
 - [NLVR2](https://sid.erda.dk/sharelink/FjJUsFbRWO)
+- [xFlickr&CO](https://sid.erda.dk/sharelink/cCObmVenjI)
+- [WIT](https://sid.erda.dk/sharelink/escPrWm3Tt)
 
 As the size of `lmdb` directories increased significantly upon upload, 
 we release the `H5` (36 boxes, ResNet-101) and (compressed) directories of `npy` files (10-100 boxes, ResNeXt-101).
