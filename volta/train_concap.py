@@ -20,7 +20,7 @@ import torch.distributed as dist
 from pytorch_transformers.tokenization_bert import BertTokenizer
 from pytorch_transformers.optimization import AdamW, WarmupLinearSchedule
 
-from volta.volta.config import BertConfig
+from volta.config import BertConfig
 from volta.encoders import BertForVLPreTraining
 from volta.datasets import ConceptCapLoaderTrain, ConceptCapLoaderVal
 from volta.train_utils import freeze_layers, tbLogger, summary_parameters, save, resume
