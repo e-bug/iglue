@@ -161,11 +161,11 @@ def main():
         torch.cuda.manual_seed_all(args.seed)
 
     # Datasets
-    tokenizer = AutoTokenizer.from_pretrained(args.m_pretrained)
+    tokenizer = AutoTokenizer.from_pretrained(args.bert_model)
     train_dataset = ConceptCapLoaderTrain(args.annotations_path, args.features_path, tokenizer, args.bert_model,
                                           seq_len=args.max_seq_length, batch_size=args.train_batch_size,
                                           num_workers=args.num_workers, local_rank=args.local_rank,
-                                          objective=args.objective, cache=cache, tokenizer_name=args.m_pretrained,
+                                          objective=args.objective, cache=cache, tokenizer_name=args.bert_model,
                                           add_global_imgfeat=config.add_global_imgfeat, num_locs=config.num_locs)
     valid_dataset = ConceptCapLoaderVal(args.annotations_path, args.features_path, tokenizer, args.bert_model,
                                         seq_len=args.max_seq_length, batch_size=args.train_batch_size, num_workers=2,
