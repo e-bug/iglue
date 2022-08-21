@@ -10,6 +10,7 @@ The raw images can be downloaded from the original websites:
 - [GQA](https://cs.stanford.edu/people/dorarad/gqa/download.html)
 - [MaRVL](https://dataverse.scholarsportal.info/dataset.xhtml?persistentId=doi:10.5683/SP3/42VZ4P)
 - [NLVR2](https://github.com/lil-lab/nlvr/tree/master/nlvr2#direct-image-download)
+- [WIT] (https://sid.erda.dk/sharelink/CwTySJlPdB)
 
 We are trying to define Terms of Use that will allow us to collect and re-distribute all the images used in IGLUE in a single site.
 
