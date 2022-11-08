@@ -1,7 +1,7 @@
 # IGLUE: The Image-Grounded Language Understanding Evaluation Benchmark
 
 This is the implementation of the approaches described in the paper:
-> Emanuele Bugliarello, Fangyu Liu, Jonas Pfeiffer, Siva Reddy, Desmond Elliott, Edoardo Maria Ponti, Ivan Vulić. [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732). arXiv 2022; abs/2201.11732.
+> Emanuele Bugliarello, Fangyu Liu, Jonas Pfeiffer, Siva Reddy, Desmond Elliott, Edoardo Maria Ponti, Ivan Vulić. [IGLUE: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages](https://arxiv.org/abs/2201.11732). In Proceedings of the 39th International Conference on Machine Learning, Jul 2022.
 
 We provide the code for reproducing our results, preprocessed data and pretrained models.
 
@@ -49,17 +49,19 @@ This work is licensed under the MIT license. See [`LICENSE`](LICENSE) for detail
 Third-party software and data are subject to their respective licenses. <br>
 If you find our code/data/models or ideas useful in your research, please consider citing the paper:
 ```
-@article{bugliarello-etal-2022-iglue,
-    title = "{IGLUE}: {A} Benchmark for Transfer Learning across Modalities, Tasks, and Languages",
-    author="Bugliarello, Emanuele and 
-        Liu, Fangyu and 
-        Pfeiffer, Jonas and 
-        Reddy, Siva and 
-        Elliott, Desmond and 
-        Ponti, Edoardo Maria and 
-        Vuli{\'c}, Ivan",
-    journal = "arXiv preprint arXiv:2201.11732"
-    year = "2022",
-    url = "https://arxiv.org/abs/2201.11732",
+@inproceedings{bugliarello-etal-2022-iglue,
+  title = 	 {{IGLUE}: A Benchmark for Transfer Learning across Modalities, Tasks, and Languages},
+  author =       {Bugliarello, Emanuele and Liu, Fangyu and Pfeiffer, Jonas and Reddy, Siva and Elliott, Desmond and Ponti, Edoardo Maria and Vuli{\'c}, Ivan},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {2370--2392},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/bugliarello22a/bugliarello22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/bugliarello22a.html},
 }
 ```
+
