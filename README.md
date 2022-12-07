@@ -24,7 +24,9 @@ Features extraction steps for each of dataset and backbone can be found under [`
 
 ## Models
 
-The checkpoints of all the pretrained V&L models can be downloaded from [ERDA](https://sid.erda.dk/sharelink/b1Rge0DwwW).
+The checkpoints of all our V&L models can be downloaded from ERDA:
+- [pretrained checkpoints](https://sid.erda.dk/sharelink/b1Rge0DwwW)
+- [English fine-tuned checkpoints](https://sid.erda.dk/sharelink/AWoHhGwsTA)
 
 For more details on defining new models in VOLTA, see [`volta/MODELS.md`](volta/MODELS.md).
 
